@@ -1,0 +1,32 @@
+.mainvisual {
+    background-image: url('../img/bg1.png');
+    height: 950px;
+    background-size: 100% 100%;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 600px;
+        text-align: center;
+        h2 {
+            font-weight: 300;
+            color: #fff;
+            font-family: 'Lato',sans-serif;
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.2;
+            margin-bottom: 65px;
+        }
+    }
+   
+}

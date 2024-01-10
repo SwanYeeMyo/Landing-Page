@@ -1,0 +1,13 @@
+.l-footer{
+    background-color: #325DFF;
+    color: #fff;
+    width: 100%;
+    
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    &__content{
+        padding: 30px 0px;
+    }
+}

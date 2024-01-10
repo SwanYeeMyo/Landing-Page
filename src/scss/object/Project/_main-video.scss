@@ -1,0 +1,33 @@
+.main-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/bg2.png');
+    height: 80vh;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+
+    &__inner {
+        color: #fff;
+        max-width: 800px;
+
+        .img-box {
+            margin-bottom: 40px;
+
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+        }
+
+    }
+
+}
